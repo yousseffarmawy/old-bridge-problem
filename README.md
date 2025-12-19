@@ -28,5 +28,11 @@ The solution is implemented using **C++ multithreading primitives** to ensure sa
 
 ## How to Run
 ```bash
+
+
+## Documentation
+A detailed explanation of the problem, design decisions, and synchronization logic is available in the project report:
+- `old-bridge-problem-report.pdf`
+
 g++ bridge.cpp -o bridge -pthread
 ./bridge
