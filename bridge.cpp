@@ -23,7 +23,7 @@ unique_lock<mutex>get_lock()
 void mark_wating_unlock(int dir )
 {
   waiting[dir]++;
-  if (!first_wait_Set[dir]){
+  if (!first_wait_Set[dir]){ 
 
     first_wait_time[dir] = clk::now();
     first_wait_Set[dir] = true;
